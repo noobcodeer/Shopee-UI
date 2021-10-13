@@ -366,6 +366,123 @@ Notify hover */
     width:100%;
     font-size: 14px;
 }
+
+/* Body Banner $ slide */
+.body__advertise{
+    height:270px;
+    background-color:#000;
+    /* overflow: hidden; */
+}
+.body__advertise-slider{
+    width:795px;
+    margin-left:28px;
+    margin-top:28px;
+    overflow:hidden;
+}
+.body__advertise-container{
+    display:flex;
+}
+.body__advertise-slider input{
+    display:none;
+}
+.slide img{
+    width:795px;
+    height:235px;
+}
+.slide-manual{
+    position:absolute;
+    width:800px;
+    margin-top: -40px;
+    display:flex;
+    justify-content:center
+}
+.manual-btn{
+    border:2px solid rgba(255, 255, 255,0.5); 
+    padding:5px;
+    /* margin:4px; */
+    border-radius: 20px;
+    cursor:pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+.manual-btn:hover{
+    background:#999;
+}
+#radio1:checked~ .first{
+    margin-left:0;
+    transition: 0.5s ease-in-out;
+}
+#radio2:checked~ .first{
+    margin-left:-100%;
+    transition: 0.5s ease ;
+}
+#radio3:checked~ .first{
+    margin-left:-200%;
+    transition: 0.5s ease-in-out;
+}
+#radio4:checked~ .first{
+    margin-left:-300%;
+    transition: 0.5s ease-in-out;
+}
+#radio5:checked~ .first{
+    margin-left:-400%;
+    transition: 0.5s ease-in-out;
+}
+#radio6:checked~ .first{
+    margin-left:-500%;
+    transition: 0.5s ease-in-out;
+}
+#radio7:checked~ .first{
+    margin-left:-600%;
+    transition: 0.5s ease-in-out;
+}
+#radio8:checked~ .first{
+    margin-left:-700%;
+    transition: 0.5s ease-in-out;
+}
+.slide-auto{
+    position:absolute;
+    display:flex;
+    width:800px;
+    justify-content: center;
+    margin-top:200px;
+}
+.slide-auto div{
+    border:2px solid #ccc;
+    padding:5px;
+    border-radius: 20px;
+    transition:1s;
+}
+.slide-auto div:not(:last-child){
+    margin-right: 10px;
+}
+#radio1:checked ~ .slide-auto .slide-auto-btn1{
+    background: #fff;
+}
+#radio2:checked ~ .slide-auto .slide-auto-btn2{
+    background: #fff;
+}
+#radio3:checked ~ .slide-auto .slide-auto-btn3{
+    background: #fff;
+}
+#radio4:checked ~ .slide-auto .slide-auto-btn4{
+    background: #fff;
+}
+#radio5:checked ~ .slide-auto .slide-auto-btn5{
+    background: #fff;
+}
+#radio6:checked ~ .slide-auto .slide-auto-btn6{
+    background:#fff;
+}
+#radio7:checked ~ .slide-auto .slide-auto-btn7{
+    background: #fff;
+}
+#radio8:checked ~ .slide-auto .slide-auto-btn8{
+    background: #fff;
+}
+/* End Body banner & slide */
 /* Modal Dang nhap dang ki */
 .modal{
     position:fixed;
