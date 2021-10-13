@@ -1,0 +1,40 @@
+:root{
+    --primary-color:rgb(248, 74, 47);
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --navbar-height:38px;
+    --header-height:120px;
+    --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
+}
+
+*{
+    box-sizing: inherit;
+}
+html{
+    /* tuong duong 16px */
+    font-size:62.5% ;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.grid{
+    width:1200px;
+    max-width:100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width:100%;
+}
+
+.grid__growth{
+    display:flex;
+    flex-wrap: wrap;
+}
