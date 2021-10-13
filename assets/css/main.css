@@ -370,7 +370,10 @@ Notify hover */
 /* Body Banner $ slide */
 .body__advertise{
     height:270px;
-    background-color:#000;
+    background-color:#f5f5f5;
+    display:flex;
+    padding-left:15px;
+    cursor: pointer;
     /* overflow: hidden; */
 }
 .body__advertise-slider{
@@ -378,9 +381,11 @@ Notify hover */
     margin-left:28px;
     margin-top:28px;
     overflow:hidden;
+    margin-right:10px;
 }
 .body__advertise-container{
     display:flex;
+    
 }
 .body__advertise-slider input{
     display:none;
@@ -482,7 +487,152 @@ Notify hover */
 #radio8:checked ~ .slide-auto .slide-auto-btn8{
     background: #fff;
 }
+.body__advertise-banner{
+    
+}
+.advertise-banner1{
+    cursor: pointer;
+    display:flex;
+    justify-content:flex-end;
+    margin:28px 0 5px 0;
+}
+.advertise-banner1{
+    cursor: pointer;
+}
+.advertise-banner1 img{
+    width:395px;
+    height:115px;
+}
+.advertise-banner2 img{
+    width:395px;
+    height:115px;
+    
+}
 /* End Body banner & slide */
+/* Body advertise list */
+.body__suggestion{
+    height:108px;
+    background-color:#f5f5f5;
+}
+.body__suggestion-lists{
+    margin: 0 22px 0 43px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+
+}
+.suggestion-item{
+    width:100px;
+    height:108px;
+    display:flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.suggestion-item-image{
+    width:45px;
+    height:45px;
+    display:flex;
+    margin:18px 0 0 26px;
+}
+.suggestion-title{
+    
+}
+.suggestion-title h1{
+    font-size: 12px;
+    text-align: center;
+}
+/* End Body advertise list */
+.body__suggestion__big{
+    height:150px;
+    background-color:#fafafa;
+}
+.suggestion__big-banner{
+    margin:0 22px 0 43px;
+}
+.suggestion__big-banner-img{
+    width:100%;
+    margin:24px 0 24px 0;
+    cursor: pointer;
+}
+
+/* Sale Legit */
+.body__legitsale{
+    background-color:#fafafa;
+
+}
+.body__legitsale-head{
+    margin:0 0 0 45px ;
+    height:100px;
+}
+.body__legitsale-body{
+    height:274px;
+    background-color:#fafafa;
+}
+.body__legitsale-body-background{
+    background-color:#0cb4a2;
+    margin:0 20px 0 45px ;
+    height:274px;
+}
+.body__legitsale-container{
+    background-color:#ffebd9;
+    margin:0 17px 0; 
+    display:flex;
+
+}
+.body-left-title{
+    width:578px;
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+}
+.body-left-title-1{
+    font-size: 16px;
+    color:#ee4e2e;
+    margin:18px;
+}
+.body-left-title-2{
+    font-size:12px;
+    color:#ee4e2e;
+    margin:18px 30px 10px 10px;
+}
+.body-left-title-3{
+    font-size: 16px;
+    color:#ee4e2e;
+    margin:18px;
+}
+.body-left-title-4{
+    font-size:12px;
+    color:#ee4e2e;
+    margin:18px 20px 10px 10px;
+}
+.body-left-product-item{
+    width: 180px;
+    height: 210px;
+    background-color: #fff;
+    margin:2px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.body-left-product{
+    display:flex;
+    /* background-color:#fff; */
+    margin-left: 18px;
+}
+.body-left-product-item img{
+    width:90%;
+    margin:10px;
+}
+.body-left-product-item h1{
+    text-align: center;
+    font-size: 14px;
+    color:#ee4e2e;
+}
+.body__legitsale-footer{
+    margin:0 0 0 45px ;
+}
 /* Modal Dang nhap dang ki */
 .modal{
     position:fixed;
