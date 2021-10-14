@@ -633,6 +633,62 @@ Notify hover */
 .body__legitsale-footer{
     margin:0 0 0 45px ;
 }
+
+/* Category */
+.body__category{
+    padding:10px 0 10px 0;
+    width:100%;
+    background-color:#fafafa;
+}
+.body__category-container{
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 20px 10px 45px;
+}
+.category-container-head{
+    height:61px;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    border:1px solid #f2f2f2;
+    align-items: center;
+    
+}
+.category-container-head h1{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color:rgba(0,0,0,.54);
+}
+.category-container-lists{
+    height:324px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.category-container-item{
+    height:162px;
+    width:120px;
+    border:1px solid #f2f2f2;
+   
+}
+.category-container-mainitem{
+    display:flex;
+    flex-direction: column;
+    
+}
+.mainitem-img{
+    width:83px;
+    height:88px;
+    display:flex;
+    margin:auto;
+}
+.mainitem-name{
+    font-size: 14px;
+    display:flex;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 350;
+    color:rgba(0, 0,0, 0.8)
+}
 /* Modal Dang nhap dang ki */
 .modal{
     position:fixed;
