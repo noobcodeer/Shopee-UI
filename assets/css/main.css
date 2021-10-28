@@ -544,7 +544,7 @@ Notify hover */
 /* End Body advertise list */
 .body__suggestion__big{
     height:150px;
-    background-color:#fafafa;
+    background-color:#f5f5f5;
 }
 .suggestion__big-banner{
     margin:0 22px 0 43px;
@@ -557,7 +557,7 @@ Notify hover */
 
 /* Sale Legit */
 .body__legitsale{
-    background-color:#fafafa;
+    background-color:#f5f5f5;
 
 }
 .body__legitsale-head{
@@ -566,7 +566,7 @@ Notify hover */
 }
 .body__legitsale-body{
     height:274px;
-    background-color:#fafafa;
+    background-color:#f5f5f5;
 }
 .body__legitsale-body-background{
     background-color:#0cb4a2;
@@ -638,7 +638,7 @@ Notify hover */
 .body__category{
     padding:10px 0 10px 0;
     width:100%;
-    background-color:#fafafa;
+    background-color:#f5f5f5;
 }
 .body__category-container{
     height: 385px;
@@ -689,6 +689,153 @@ Notify hover */
     font-weight: 350;
     color:rgba(0, 0,0, 0.8)
 }
+
+/* Flash Sale */
+.body__flashsale{
+    height:330px;
+    background-color: #f5f5f5;
+}
+.body__flashsale-container{
+    height:320px;
+    background-color: #fff;
+    margin: 0 20px 10px 45px;
+}
+.flashsale-container-header{
+    height:61px;
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+.flashsale-container-header-logo{
+    display: flex;
+    justify-content:center;
+    margin:20px;
+}
+.flashsale-logo{
+    width:140px;
+    height:25px;
+}
+.countdown-flashsale{
+    margin-left: 10px;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+}
+.countdown-flashsale-time{
+    background-color:#000;
+    margin:1px;
+    width:20px;
+    height:25px;
+    border-radius: 3px;
+
+}
+.countdown-flashsale-time h2{
+    font-size:12px;
+    color:#fff;
+    display:flex;
+    margin:5px 2px 1px 2px;
+}
+
+.flashsale-container-header-more{
+    display:flex;
+    align-items: center;
+    margin-right: 40px;
+    color:#ee4d2d;
+}
+.flashsale-container-header-more h1{
+    font-size: 14px;
+    font-weight: 300;
+}
+.flashsale-container-product{
+    display:flex;
+
+}
+.flashsale-container-item{
+    width:200px;
+    height:240px;
+}
+.flashsale-container-item-img{
+    width:100%;
+    display:flex;
+    margin:13px;
+}
+.img-flashsale{
+    width:173px;
+    height:auto;
+}
+.flashsale-container-item-info{
+    width:100%;
+}
+.flashsale-info-price{
+    color:#ee4d2d;
+    /* margin-left: 20px; */
+}
+.flashsale-container-item-info{
+    /* height:100%;
+    width:100%; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.flashsale-info-line{
+    /* display:flex;
+    justify-content:center; */
+    width:80%;
+    height:15px;
+    border-radius: 14px;
+    position:relative;
+    background:#ffbda6;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
+                      0px 1px rgba(255,255,255,0.8);
+}
+.flashsale-info-line span{
+    height:100%;
+    width:80%;
+    background:#ec1f16;
+    position:absolute;
+    border-radius:14px 0 0 14px;
+    z-index:1;
+    /* text-align: center; */
+}
+.flashsale-info-line h1{
+    position:absolute;
+    z-index:100;
+    display:flex;
+    justify-content:center;
+    color:#000;
+    font-size: 14px;
+    margin:-1px 0 0 50px;
+    color:#fff;
+}
+.none{
+    display:none;
+}
+
+/* Banner Brand */
+.body__bannerbrand{
+    background-color:#f5f5f5;
+}
+.body__bannerbrand-container{
+    padding-top:10px;
+    margin:0 10px 0 45px;
+    display:flex;
+
+}
+/* ShopeeMall */
+.body__shopeemall{
+    background-color:#f5f5f5;
+}
+.body__shopeemall-container{
+    margin:0 20px 0 45px;
+    background-color: #fff;
+}
+.body-shopeemall-header{
+    height:61px;
+    border:1px solid #f2f2f2;
+    display:flex;
+}
+
 /* Modal Dang nhap dang ki */
 .modal{
     position:fixed;
